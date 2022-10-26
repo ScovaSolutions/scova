@@ -1,0 +1,135 @@
+table {
+    table-layout: fixed;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.demarcator hr {
+    border-top: 3px dotted black;
+    width: 100%;
+    align-self: center;
+    padding-bottom: 2rem;
+}
+
+.equation {
+    text-align: center;
+    align-items: center;
+}
+
+.title-image img {
+    width: 85%;
+}
+
+.chapter-cover img {
+    width: 100%;
+    align-self: center;
+    padding: 2em;
+}
+
+.image img {
+    width: 100%;
+}
+
+.verse {
+    padding: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: 1rem;
+}
+
+.quran {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.bible {
+    text-align: center;
+    font-style: italic;
+}
+
+.quote {
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Charter', 'Grad', 'Cheltenham';
+    padding: 1rem;
+    font-style: italic;
+}
+
+.player {
+    /* text-align: center;
+    align-items: center;
+    padding: 1rem; */
+    align-content: center;
+    align-self: center;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.quran em {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.title-quote {
+    font-size: 1.5rem;
+    color: red;
+    text-align: center;
+    font-family: 'Charter', 'Grad', 'Cheltenham';
+}
+
+.block-quote {
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Charter', 'Grad', 'Cheltenham';
+    padding: 1rem;
+}
+
+.chapter-title {
+    font-size: 4rem;
+    text-align: center;
+    font-style: italic bold;
+    font-family: 'Charter', 'Grad', 'Cheltenham';
+}
+
+.book-title {
+    font-size: 6rem;
+    text-align: center;
+    font-style: bold;
+    font-family: 'Charter', 'Grad', 'Cheltenham';
+    font-variant: small-caps;
+    color: rgb(51, 13, 13);
+    background-color: rgba(235, 139, 14, 0.22);
+    padding-bottom: 5em;
+    padding-top: 5em;
+}
+
+tr {
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: 'Charter', 'Grad', 'Cheltenham';
+}
+
+.salutation {
+    text-align: right;
+    padding: 2rem;
+}
+
+.heading {
+    font-size: 7rem;
+    color: red;
+    text-align: center;
+    font-family: 'Charter', 'Grad', 'Cheltenham';
+}
+
+@media (max-width: 640px) {
+    table {
+        table-layout: fixed;
+        max-width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,62 @@
+.Blog {
+    text-align: center;
+}
+
+.Blog-logo {
+    /* padding-top: 10vh; */
+    height: 60vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Blog-logo {
+        animation: Blog-logo-spin infinite 20s linear;
+    }
+}
+
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.Blog-header {
+    min-height: 7vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* align-items: center;
+    justify-content: center; */
+    font-size: calc(15px + 2vmin);
+    color: black;
+    /* background-color: black; */
+    padding-left: 3vh;
+    margin-bottom: 10vh;
+}
+
+
+/* .Blog-header Button {
+    width: 10vw;
+} */
+
+.Navbar-brand {
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-size: 50pt; */
+    font-weight: bolder;
+}
+
+.Button {
+    margin-inline-start: 1vw;
+}
+
+@keyframes Blog-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
